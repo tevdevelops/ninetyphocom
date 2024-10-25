@@ -10,11 +10,37 @@
 </template>
 
 <script setup lang="ts">
+import anime from 'animejs/lib/anime.es.js'
+
 interface Props {
   to: string
   title: string
   target?: '_blank' | '_parent' | '_self' | '_top'
 }
+
+function introCubeAnimation() {
+  anime({
+    targets: '.cube',
+    top: 0,
+    delay: anime.stagger(250),
+    duration: 2000,
+    easing: 'spring(0.75, 80, 10, 10)',
+  })
+}
+
+function hoverCubeAnimation(event: Event) {
+  anime({
+    targets: event.currentTarget,
+    top: [0, -25],
+    duration: 100,
+    easing: 'spring(0.75, 80, 10, 10)',
+    direction: 'alternate',
+  })
+}
+
+onMounted(() => {
+  introCubeAnimation()
+})
 
 defineProps<Props>()
 </script>
@@ -27,11 +53,10 @@ defineProps<Props>()
   transform-style: preserve-3d;
   transition: transform 250ms ease-in;
   cursor: pointer;
+  top: -1000px;
 }
 
 .cube:hover {
-  width: 100px;
-  height: 100px;
 }
 
 .cube--music {

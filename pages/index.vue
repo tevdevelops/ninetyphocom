@@ -46,7 +46,6 @@ const headerItems: Ref<
 
 <style scoped>
 .wrapper {
-  background: white;
   position: fixed;
   top: 0;
   left: 0;
