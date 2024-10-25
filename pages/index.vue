@@ -23,7 +23,7 @@ const headerItems: Ref<
 > = ref([
   {
     title: 'Music',
-    to: 'https://google.com',
+    to: 'https://linktr.ee/mylescream',
     target: '_blank',
   },
   {
@@ -33,7 +33,7 @@ const headerItems: Ref<
   },
   {
     title: 'Visuals',
-    to: 'https://youtube.com',
+    to: 'https://www.youtube.com/playlist?list=PLKbOLZvcr7slD_GDsYEOkO5Ioqt96PBXN',
     target: '_blank',
   },
   {
