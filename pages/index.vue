@@ -14,6 +14,16 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'ninetypho – myles cream',
+  meta: [
+    {
+      name: 'description',
+      content: 'music, visuals, photography, skateboarding, croissants',
+    },
+  ],
+})
+
 const headerItems: Ref<
   {
     title: string

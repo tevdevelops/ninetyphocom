@@ -1,6 +1,9 @@
-# Nuxt 3 Minimal Starter
+# NINETYPHO.COM
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Todos
+- [x] Update Favicon
+- [x] Contact Page
+- [ ] Add Cube Hover Animation
 
 ## Setup
 
