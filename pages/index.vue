@@ -43,7 +43,7 @@ const headerItems: Ref<
   },
   {
     title: 'Visuals',
-    to: 'https://www.youtube.com/playlist?list=PLKbOLZvcr7slD_GDsYEOkO5Ioqt96PBXN',
+    to: 'https://www.youtube.com/playlist?list=PLhDm9ZgO3vf-iDWtPb9dVQCw9m0XUrNVK',
     target: '_blank',
   },
   {
