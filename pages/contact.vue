@@ -21,7 +21,12 @@
       </p>
       <p>new ideas - this is the place to be.</p>
       <p>-myles</p>
+
       <NuxtLink to="/" class="home-link">back to home</NuxtLink>
+
+      <p class="tev">
+        site developed by <a href="https://tevdevelops.me">tevdevelops</a>
+      </p>
     </div>
 
     <div class="images">
@@ -85,5 +90,10 @@ p {
   display: block;
   margin-bottom: 2rem;
   width: 100%;
+}
+
+.tev {
+  margin-top: 3rem;
+  font-size: 0.8rem;
 }
 </style>
