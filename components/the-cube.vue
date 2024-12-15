@@ -56,9 +56,6 @@ defineProps<Props>()
   top: -1000px;
 }
 
-.cube:hover {
-}
-
 .cube--music {
   transform: rotateX(232deg) rotateY(178deg) rotateZ(218deg);
   z-index: 10;

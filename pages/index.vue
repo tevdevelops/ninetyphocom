@@ -72,6 +72,17 @@ const headerItems: Ref<
   align-items: flex-start;
 }
 
+@media (max-width: 525px) {
+  .container {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    transform: scale(0.8);
+  }
+}
 @media (min-width: 1024px) {
   .wrapper {
     display: flex;
