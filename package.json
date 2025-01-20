@@ -13,6 +13,7 @@
     "@nuxt/image": "^1.8.1",
     "animejs": "^3.2.2",
     "nuxt": "^3.13.0",
+    "nuxt-gtag": "^3.0.2",
     "vue": "latest",
     "vue-router": "latest"
   },
