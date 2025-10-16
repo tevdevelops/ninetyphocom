@@ -38,7 +38,7 @@ const headerItems: Ref<
   },
   {
     title: 'Merch',
-    to: 'https://store.ninetypho.com',
+    to: '/products',
     target: '_self',
   },
   {
